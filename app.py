@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load the saved model and scaler
-model = joblib.load('best_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('best_model.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # Streamlit web app
 st.title('Heart Disease Prediction')
